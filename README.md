@@ -1,3 +1,3 @@
 ````base
-console.dir('Hello')
+console.dir('Hello word')
 ````
