@@ -1,0 +1,47 @@
+.navbar-zlh{
+	background: #324157;
+	min-height: 59px;
+}
+.navbar-zlh .navbar-brand{
+	color: #fff;
+    line-height: 18px;
+}
+.navbar-zlh .navbar-nav li>a{
+	color: #fff;
+	margin: -1px 0;
+	transition: all .5s;
+}
+.navbar-zlh .dropdown-menu li>a{
+	color: #324157;
+}
+.navbar-zlh .nav>li>a:focus, .nav>li>a:hover,.navbar-zlh .j_hover.active a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #324157;
+}
+.navbar-zlh .navbar-brand::after{
+	content: "阅尽繁华，不舍初心"; 
+	display: block;
+	font-size: 12px; 
+	font-weight: normal; 
+	bottom: 0px;
+    color: #d5d5d5;
+}
+.navbar-zlh .navbar-nav>li>a{
+    padding-top: 18px;
+	padding-bottom: 21px;
+}
+.navbar-zlh .navbar-form.navbar-left{
+	margin-top: 12px;	
+}
+
+/**
+ * 中间图片自我介绍
+ * */
+.img{
+	margin-top: -21px;
+	width: 100%;
+	height:600px;
+	z-index: -2;
+}
+
